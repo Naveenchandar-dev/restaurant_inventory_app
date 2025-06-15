@@ -113,3 +113,5 @@ All endpoints are prefixed with `/api` and require an `x-api-key` header.
 -   **Prediction Model:** A simple moving average based on the last 30 days of consumption data was used. This is effective for stable consumption patterns but could be improved with more advanced forecasting models (e.g., ARIMA) for items with seasonal demand.
 -   **Authentication:** A simple static API key was chosen for simplicity, as per the bonus points. For a production system, a more robust authentication mechanism like JWT (JSON Web Tokens) or OAuth2 would be necessary.
 -   **Transaction Safety:** The consumption logging endpoint uses a database transaction to ensure that stock quantity is only updated if the consumption log is also created successfully, maintaining data integrity.
+  ![image](https://github.com/user-attachments/assets/309a3288-0694-4f71-b51d-04e7c70c91b9)  This is the sample image for this app.
+
